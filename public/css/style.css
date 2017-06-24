@@ -1,0 +1,82 @@
+*{margin: 0 auto; font-family: ambleregular;}
+a{text-decoration: none; font-weight: bold;}
+img{border: none;}
+ul{list-style: none; padding:0;}
+h1{font-size: 45px;}
+h2{font-size: 35px;}
+h3{font-size: 30px;}
+h4{font-size: 25px;}
+h5{font-size: 20px;}
+h6{font-size: 15px;}
+hr{color: #999;}
+
+table{width: 100%;}
+
+form td{vertical-align: top; padding-bottom: 10px;}
+form td label{padding-right: 10px;}
+form input[type=text], form input[type=email], form textarea, form select{width: 100%; height: 35px; border-radius: 5px; border: solid 1px #005900; box-shadow: inset 0 5px 15px #eee;}
+form textarea{height: 300px;}
+
+img{margin-bottom: 10px;}
+
+.float-right{float: right;}
+.float-left{float: left;}
+.align-right{text-align: right;}
+.center{margin: 0 auto; text-align: center;}
+
+.lb-image{max-height: 425px; min-height: 425px; max-width: 650px; min-width: 650px;}
+.img-thumbnail{width: 100%; height: auto; border-radius: 5px;}
+.shadow{box-shadow: 0 3px 5px;}
+
+.transparent{background: url('../images/banner.png'); color: #fff; padding: 10px;}
+.transparent, #main{border-radius: 10px; box-shadow: 0 5px 15px #333;}
+
+.btn{background-color: #485726; border: solid 1px #313c1a; padding: 10px 25px; color: #fff; cursor: pointer; }
+.btn:hover{background-color: #5e7131; color: #ddd; border: solid 1px #485726;}
+
+.important{font-weight: bold; font-size: 20px; }
+.important a{text-decoration: underline;}
+
+.separator{margin-top: 15px; margin-bottom: 25px;}
+.farm{height: 150px !important;}
+
+.item{background-color: #485726; border-radius: 10px; box-shadow: 0 3px 5px; min-height: 375px; width: 95%; padding: 10px 0;}
+.item-details{background-color: #fff; color: 000; padding: 10px 0; width: 90%;}
+.item img{height: 200px; width: 90%; border-radius: 10px;}
+.item table{width: 100%;}
+
+#header{height: 500px; background-image: url('../images/horses1.jpg');}
+#header ul{padding: 0;}
+#header ul li{display: inline; padding-left: 15px;}
+#banner{height: 85px; background: url('../images/banner.png') repeat-x; padding-top: 5px; color: #fff; position: absolute; top: 50px; width: 100%; min-width: 960px;}
+#banner a{color: #fff;}
+
+#main{position: absolute; margin-top: 50px; padding: 10px; background: url('../images/banner.png');}
+
+#navigation{position: relative; padding-top: 42px;}
+#navigation a{font-size: 25px;}
+
+#content{min-height: 650px; color: #444;}
+#news, #side{min-height: 400px;}
+#news .article p{padding: 10px 10px 15px 0; }
+#feed{min-height: 200px;}
+#news img{}
+#events img{height: 250px; width: 250px; box-shadow: 0 3px 5px;}
+#gallery ul li{display: inline-block;}
+#gallery img{height: 64px; width: 64px;}
+
+#footer{min-height: 250px; background: #485726; color: #fff; padding-top: 15px;}
+#footer a{color: #fff; }
+#footer a:hover{color: #aaa;}
+#footer ul li{padding-bottom: 5px;}
+
+@font-face {
+    font-family: 'ambleregular';
+    src: url('fonts/Amble-Regular-webfont.eot');
+    src: url('fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
