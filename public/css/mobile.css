@@ -1,9 +1,26 @@
 /* for 800px or less */
 @media screen and (max-width: 800px){
-
-}
-
-/* for 570px or less */
-@media screen and (max-width: 570px){
+	body{min-width: inherit;}
+	.container, #content{width: 300px;}
+	
+	h1{font-size: 30px;}
+	h3{font-size: 20px;}
+	
+	.container_12{width: 300px;}
+	
+	.grid_12, .grid_11, .grid_10,
+	.grid_9, .grid_8, .grid_7,
+	.grid_6, .grid_5, .grid_4,
+	.grid_3, .grid_2, .grid_1{width: 300px !important;}
+	
+	#banner{min-width: 300px; font-size: 12px; height: 52px;}
+	#main{position: relative; width: 270px !important; margin-top: 15px;}
+	#navigation a{font-size: 16px;}
+	#navigation .float-right{text-align: center; float: none;}
+	#logo img{height: 32px; width: 32px;}
+	
+	#news, #side{min-height: inherit;}
+	
+	.ui-datepicker{padding: 2px;}
 	
 }

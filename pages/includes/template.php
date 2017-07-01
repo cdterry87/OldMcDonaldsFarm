@@ -101,6 +101,7 @@
 				<div class="clear"></div>
 				<br/>
 				<div class="grid_12">&copy; Chase Terry 2013 - <?php echo date('Y'); ?></div>
+				<div class="clear"></div>
 			</div>
 		</div>
 		
