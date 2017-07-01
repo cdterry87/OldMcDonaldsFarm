@@ -9,12 +9,15 @@
 		<meta property="og:title" content="Farm Template"/>
 		<meta property="og:site_name" content="Farm Template"/>
 		<meta property="og:description" content="Farm Template"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
 		<title>McDonald Farm</title>
 		<!-- Styles -->
         <link href="<?php echo $base_url; ?>public/css/style.css" type="text/css" rel="stylesheet">
         <link href="<?php echo $base_url; ?>public/css/grid.css" type="text/css" rel="stylesheet">
 		<link href="<?php echo $base_url; ?>public/js/jquery/ui/1.10.3/jquery-ui-1.10.3.custom.min.css" rel="stylesheet">
 		<link href="<?php echo $base_url; ?>public/plugins/lightbox/2.6/css/lightbox.css" type="text/css" rel="stylesheet">
+		<link href="<?php echo $base_url; ?>public/css/mobile.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
 		<div id="header">
