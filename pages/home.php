@@ -58,6 +58,10 @@
 			<li><a href="<?php echo $base_url; ?>public/images/gallery/4.jpg" data-lightbox="gallery" title="My caption"><img src="<?php echo $base_url; ?>public/images/gallery/4.jpg" /></a></li>
 			<li><a href="<?php echo $base_url; ?>public/images/gallery/5.jpg" data-lightbox="gallery" title="My caption"><img src="<?php echo $base_url; ?>public/images/gallery/5.jpg" /></a></li>
 			<li><a href="<?php echo $base_url; ?>public/images/gallery/6.jpg" data-lightbox="gallery" title="My caption"><img src="<?php echo $base_url; ?>public/images/gallery/6.jpg" /></a></li>
+			<li><a href="<?php echo $base_url; ?>public/images/gallery/2.jpg" data-lightbox="gallery" title="My caption"><img src="<?php echo $base_url; ?>public/images/gallery/2.jpg" /></a></li>
+			<li><a href="<?php echo $base_url; ?>public/images/gallery/3.jpg" data-lightbox="gallery" title="My caption"><img src="<?php echo $base_url; ?>public/images/gallery/3.jpg" /></a></li>
+			<li><a href="<?php echo $base_url; ?>public/images/gallery/4.jpg" data-lightbox="gallery" title="My caption"><img src="<?php echo $base_url; ?>public/images/gallery/4.jpg" /></a></li>
+			<li><a href="<?php echo $base_url; ?>public/images/gallery/5.jpg" data-lightbox="gallery" title="My caption"><img src="<?php echo $base_url; ?>public/images/gallery/5.jpg" /></a></li>
 		</ul>
 	</div>
 	<br/>
@@ -81,7 +85,7 @@
 		<div class="clear"></div>
 		<span>5:00PM - 10:00PM</span>
 	</div>
-	<div class="event grid_4 center">
+	<div class="event grid_4 center" id="calendar">
 		<h4>Event Calendar</h4>
 		<span>Check out our upcoming events below!</span>
 		<br/>
